@@ -13,7 +13,7 @@ const scoreProgress = document.getElementById("scoreProgress");
 
 
 // Your FastAPI backend URL
-const API_URL = "http://127.0.0.1:8000/predict";
+const API_URL = "https://mindpredict.onrender.com";
 
 
 form.addEventListener("submit", async function (event) {
